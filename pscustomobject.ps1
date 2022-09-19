@@ -1,1 +1,1 @@
-﻿@([pscustomobject](@{Name='jim'}), [pscustomobject](@{Name='fred'})) | Remove-ItemProperty -Path hkcu:\test -ErrorAction stop
+@([pscustomobject](@{Name='jim'}), [pscustomobject](@{Name='fred'})) | Remove-ItemProperty -Path hkcu:\test -ErrorAction stop
